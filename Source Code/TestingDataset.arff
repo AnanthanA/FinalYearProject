@@ -1,0 +1,99 @@
+@RELATION TestingDataset
+
+@ATTRIBUTE code_module {AAA,BBB,CCC,DDD,EEE,FFF,GGG}
+@ATTRIBUTE code_presentation {2013B,2013J,2014B}
+@ATTRIBUTE id_student REAL
+@ATTRIBUTE gender {F,M}
+@ATTRIBUTE region {East_Anglian_Region,East_Midlands_Region,Ireland,London_Region,North_Region,North_Western_Region,Scotland,South_East_Region,South_Region,South_West_Region,Wales,West_Midlands_Region,Yorkshire_Region}
+@ATTRIBUTE highest_education {A_Level_or_Equivalent,HE_Qualification,Lower_Than_A_Level,No_Formal_quals,Post_Graduate_Qualification}
+@ATTRIBUTE course_length_in_percent {0-10,10-20,20-30,30-40,40-50,50-60,60-70,70-80,80-90,90-100}
+@ATTRIBUTE age_band {0-35,35-55,above_55}
+@ATTRIBUTE num_of_prev_attempts REAL
+@ATTRIBUTE studied_credits REAL
+@ATTRIBUTE disability {N,Y}
+@ATTRIBUTE final_result {Distinction,Fail,Pass,Withdrawn}
+
+@DATA
+AAA,2013J,380953,M,East_Midlands_Region,A_Level_or_Equivalent,80-90,0-35,0,60,N,?
+AAA,2013J,383254,M,Yorkshire_Region,A_Level_or_Equivalent,90-100,0-35,0,120,N,?
+AAA,2013J,386952,M,Yorkshire_Region,A_Level_or_Equivalent,70-80,0-35,0,120,N,?
+AAA,2013J,388722,F,London_Region,Lower_Than_A_Level,80-90,35-55,0,60,N,?
+AAA,2013J,388885,M,South_West_Region,A_Level_or_Equivalent,90-100,35-55,0,60,N,?
+AAA,2013J,390890,M,Scotland,A_Level_or_Equivalent,0-10,0-35,0,90,N,?
+AAA,2013J,392756,M,West_Midlands_Region,A_Level_or_Equivalent,70-80,0-35,0,120,N,?
+AAA,2013J,392931,F,North_Western_Region,A_Level_or_Equivalent,50-60,35-55,0,120,N,?
+AAA,2013J,393207,M,North_Western_Region,A_Level_or_Equivalent,60-70,0-35,0,60,N,?
+AAA,2013J,396872,M,Yorkshire_Region,HE_Qualification,50-60,0-35,0,180,N,?
+AAA,2013J,398552,M,Yorkshire_Region,Lower_Than_A_Level,90-100,0-35,0,240,N,?
+AAA,2013J,401869,F,South_East_Region,Lower_Than_A_Level,80-90,0-35,0,60,N,?
+AAA,2013J,402470,M,South_West_Region,Lower_Than_A_Level,50-60,35-55,0,60,N,?
+AAA,2013J,404804,M,Wales,Lower_Than_A_Level,20-30,35-55,0,120,N,?
+AAA,2013J,405088,M,North_Region,A_Level_or_Equivalent,20-30,0-35,0,120,N,?
+AAA,2013J,405961,M,Scotland,A_Level_or_Equivalent,90-100,0-35,0,240,Y,?
+AAA,2013J,414117,M,Yorkshire_Region,A_Level_or_Equivalent,50-60,0-35,0,120,N,?
+BBB,2013B,182824,F,East_Anglian_Region,Lower_Than_A_Level,0-10,35-55,2,120,N,?
+BBB,2013B,183806,F,South_West_Region,A_Level_or_Equivalent,80-90,35-55,1,225,Y,?
+BBB,2013B,185240,F,West_Midlands_Region,Lower_Than_A_Level,40-50,35-55,1,120,N,?
+BBB,2013B,185349,F,Scotland,Lower_Than_A_Level,30-40,35-55,2,60,N,?
+BBB,2013B,186670,F,Yorkshire_Region,HE_Qualification,40-50,35-55,1,60,N,?
+BBB,2013B,186780,F,North_Western_Region,A_Level_or_Equivalent,10-20,35-55,2,120,Y,?
+BBB,2013B,186988,F,Yorkshire_Region,Lower_Than_A_Level,0-10,0-35,2,60,N,?
+BBB,2013B,187793,F,North_Western_Region,Lower_Than_A_Level,10-20,35-55,1,120,Y,?
+BBB,2013B,188152,M,South_East_Region,Lower_Than_A_Level,50-60,0-35,0,120,N,?
+BBB,2013B,192424,M,Wales,A_Level_or_Equivalent,70-80,35-55,0,120,N,?
+BBB,2013B,193822,F,Wales,Lower_Than_A_Level,10-20,35-55,0,60,Y,?
+CCC,2014B,169380,M,East_Midlands_Region,A_Level_or_Equivalent,50-60,35-55,0,60,N,?
+CCC,2014B,170025,F,East_Anglian_Region,HE_Qualification,90-100,0-35,0,60,N,?
+CCC,2014B,170864,M,Scotland,HE_Qualification,90-100,35-55,0,60,Y,?
+CCC,2014B,171896,F,South_East_Region,A_Level_or_Equivalent,40-50,0-35,0,60,N,?
+CCC,2014B,172301,M,East_Midlands_Region,Lower_Than_A_Level,0-10,0-35,0,60,N,?
+CCC,2014B,172965,M,Scotland,Post_Graduate_Qualification,60-70,35-55,0,150,N,?
+CCC,2014B,174807,F,South_West_Region,HE_Qualification,20-30,35-55,0,90,N,?
+CCC,2014B,175490,F,South_Region,HE_Qualification,40-50,0-35,0,60,N,?
+CCC,2014B,177967,M,Scotland,A_Level_or_Equivalent,0-10,0-35,0,30,N,?
+CCC,2014B,178072,M,South_East_Region,A_Level_or_Equivalent,0-10,0-35,0,60,N,?
+CCC,2014B,178654,F,Scotland,HE_Qualification,60-70,35-55,0,30,N,?
+DDD,2013B,184968,F,South_East_Region,Lower_Than_A_Level,70-80,0-35,1,120,N,?
+DDD,2013B,187623,M,East_Midlands_Region,A_Level_or_Equivalent,70-80,0-35,0,60,N,?
+DDD,2013B,191195,F,Scotland,Lower_Than_A_Level,10-20,0-35,0,120,Y,?
+DDD,2013B,191398,M,North_Western_Region,Lower_Than_A_Level,30-40,0-35,1,210,N,?
+DDD,2013B,191491,F,South_Region,Lower_Than_A_Level,10-20,35-55,0,60,N,?
+DDD,2013B,191896,F,London_Region,Lower_Than_A_Level,10-20,35-55,0,60,N,?
+DDD,2013B,191972,M,Ireland,A_Level_or_Equivalent,40-50,0-35,4,120,N,?
+DDD,2013B,192196,M,London_Region,Lower_Than_A_Level,40-50,35-55,0,60,N,?
+DDD,2013B,196266,F,Scotland,Lower_Than_A_Level,10-20,0-35,0,240,N,?
+DDD,2013B,196902,F,Wales,A_Level_or_Equivalent,70-80,0-35,3,60,N,?
+DDD,2013B,198470,F,South_West_Region,A_Level_or_Equivalent,30-40,0-35,0,60,N,?
+EEE,2013J,305783,M,East_Anglian_Region,Lower_Than_A_Level,70-80,0-35,0,60,N,?
+EEE,2013J,306150,M,Scotland,A_Level_or_Equivalent,80-90,0-35,0,90,N,?
+EEE,2013J,311845,M,Scotland,A_Level_or_Equivalent,80-90,35-55,0,30,N,?
+EEE,2013J,313501,F,East_Midlands_Region,A_Level_or_Equivalent,50-60,0-35,0,30,N,?
+EEE,2013J,328844,M,South_East_Region,A_Level_or_Equivalent,20-30,0-35,0,70,N,?
+EEE,2013J,328942,M,East_Midlands_Region,A_Level_or_Equivalent,90-100,0-35,0,40,N,?
+EEE,2013J,330354,F,West_Midlands_Region,Lower_Than_A_Level,30-40,0-35,0,60,N,?
+EEE,2013J,330530,M,North_Western_Region,A_Level_or_Equivalent,30-40,0-35,0,60,N,?
+EEE,2013J,330937,M,East_Anglian_Region,Lower_Than_A_Level,40-50,0-35,0,60,N,?
+EEE,2013J,333493,M,South_Region,Lower_Than_A_Level,80-90,0-35,0,60,N,?
+EEE,2013J,333976,M,West_Midlands_Region,A_Level_or_Equivalent,0-10,0-35,0,30,N,?
+FFF,2013B,180974,M,South_West_Region,A_Level_or_Equivalent,40-50,35-55,0,120,N,?
+FFF,2013B,181508,M,Ireland,HE_Qualification,90-100,0-35,0,60,N,?
+FFF,2013B,181992,M,North_Western_Region,Lower_Than_A_Level,40-50,0-35,0,120,N,?
+FFF,2013B,182468,M,West_Midlands_Region,A_Level_or_Equivalent,40-50,0-35,0,90,N,?
+FFF,2013B,184129,M,Wales,A_Level_or_Equivalent,90-100,0-35,1,180,N,?
+FFF,2013B,185496,M,Wales,Lower_Than_A_Level,0-10,0-35,2,120,N,?
+FFF,2013B,186380,M,East_Anglian_Region,HE_Qualification,90-100,0-35,0,60,N,?
+FFF,2013B,190653,F,East_Anglian_Region,Lower_Than_A_Level,0-10,0-35,0,60,N,?
+FFF,2013B,191998,M,London_Region,A_Level_or_Equivalent,40-50,35-55,0,60,N,?
+FFF,2013B,193193,M,West_Midlands_Region,A_Level_or_Equivalent,90-100,0-35,0,150,N,?
+FFF,2013B,193803,M,South_Region,Post_Graduate_Qualification,90-100,35-55,0,210,N,?
+GGG,2013J,426736,F,East_Anglian_Region,Lower_Than_A_Level,0-10,0-35,0,30,N,?
+GGG,2013J,427321,F,North_Western_Region,HE_Qualification,50-60,35-55,0,30,N,?
+GGG,2013J,428301,M,North_Western_Region,A_Level_or_Equivalent,0-10,0-35,0,30,N,?
+GGG,2013J,433165,F,South_Region,A_Level_or_Equivalent,90-100,0-35,0,30,N,?
+GGG,2013J,434478,F,East_Anglian_Region,Lower_Than_A_Level,70-80,0-35,0,30,N,?
+GGG,2013J,439677,F,North_Western_Region,Lower_Than_A_Level,10-20,0-35,0,30,N,?
+GGG,2013J,444943,F,East_Anglian_Region,A_Level_or_Equivalent,30-40,0-35,0,30,N,?
+GGG,2013J,445086,F,North_Western_Region,A_Level_or_Equivalent,70-80,0-35,0,30,N,?
+GGG,2013J,465724,F,East_Midlands_Region,A_Level_or_Equivalent,70-80,35-55,0,30,N,?
+GGG,2013J,466900,F,East_Anglian_Region,Lower_Than_A_Level,60-70,0-35,0,30,N,?
+GGG,2013J,470340,F,West_Midlands_Region,A_Level_or_Equivalent,50-60,0-35,0,30,N,?
